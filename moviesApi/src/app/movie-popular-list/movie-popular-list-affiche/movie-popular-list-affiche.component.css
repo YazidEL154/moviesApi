@@ -1,0 +1,33 @@
+.affiche{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: black;
+    border-radius: 3%;
+    box-shadow:15px 5px 5px 0 rgba(0,0,0,0.5);
+    flex-wrap: wrap;
+    width:13vw;
+    height:auto;
+    -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+     transition: all 0.2s;
+}
+.affiche:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+.content{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    height:15vh;
+}
+h4{
+    font-weight: bolder;
+}
+.affichedetail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

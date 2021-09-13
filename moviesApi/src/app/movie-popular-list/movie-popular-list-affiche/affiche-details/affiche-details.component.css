@@ -1,0 +1,25 @@
+.conteneur{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:70vw;
+    height:auto;
+    border-color: red;
+    border:2px;
+    background-color: black;
+}
+.parag{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    margin: 10px;
+    font-size: 18px;
+}
+h4{
+    font-weight: bolder;
+    color:red;
+    font-size: 24px;
+}
+h6{
+    font-size: 22px;
+    font-weight: bold;
+}
